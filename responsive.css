@@ -1,0 +1,173 @@
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+  
+    .our-menu .menu-container{
+        grid-template-columns: repeat(auto-fit,minmax(30rem,2fr));
+    } 
+    .our-menu .menu-container .item .item-menu span{
+        width: 15%;
+    }
+}
+@media (max-width: 768px){
+    .fa-search,.fa-heart,.fa-shopping-cart {
+        display: none;
+    } 
+
+    header .icons #menu{
+        display:block;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(205, 170, 124, 0.2);
+        border-bottom: .1rem solid rgba(205, 170, 124, 0.2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0,100% 0,0 0);
+        display: none; 
+        transition: opacity 0.3s ease; 
+        opacity: 0;
+        }
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0,100% 100%,0 100%);
+        display: block; 
+        opacity: 1;
+        transition-delay: 0.1s;
+    }
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: var(--black);
+        transition: transform 0.3s ease;
+    }
+    header .navbar a:hover {
+        transform: scale(1.1); 
+    }
+
+    .home .home-slider .slide{
+       
+        justify-content: center;
+        height: 8vh;
+    }
+    .home .home-slider .slide .content{
+        padding: 0;
+    }
+    .home .home-slider .slide .content h1{
+        font-size: 7rem;
+    }
+
+    .welcome .box-container{
+        flex-wrap: wrap;
+    }
+    .welcome .box-container .box{
+        width: 100%;
+    }
+    .reservation .image{
+        width: 0;
+    }
+    .reservation .form{
+        width: 100%;
+    }
+    .reservation .form .form-holder{
+        display: block;
+    }
+}
+
+/* ABOUT PAGE RESPONSIVE START FROM HERE */
+@media (max-width:920px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
+/* menu responsive */
+@media (max-width:920px){
+    .card-content{
+        grid-template-columns: 1fr;
+    }
+}@media (max-width:920px){
+    .menu{
+        grid-template-columns: 1fr;
+    }
+    .menu-img{
+        text-align: center;
+    }
+    .menu-img img{
+        width: 70%;
+    }
+    .menu-content{
+        text-align: center;
+    }
+}
+
+/* gadji responsive */
+@media (max-width:920px){
+    .top-cards-content{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1350px){
+    
+  .button3 {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    background: transparent;
+    background-size: 400%;
+    color: #cdaa7c;
+    border: 1px solid #cdaa7c;
+    top: -7px;
+    right: -35%;
+    cursor: pointer;
+  
+}
+}
+
+@media (max-width: 1050px){
+
+forms form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 1000px){
+
+.modal-content{
+  width: 65%;
+}
+}
+
+@media (max-width: 950px){
+    .button3{
+        right: 0px;
+      }
+ }
+
+ @media (max-width: 750px){
+    .modal-content{
+        width: 75%;
+      }
+ }
+
