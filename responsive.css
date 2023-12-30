@@ -57,7 +57,7 @@
     .home .home-slider .slide{
        
         justify-content: center;
-        height: 8vh;
+        /* height: 8vh; */
     }
     .home .home-slider .slide .content{
         padding: 0;
