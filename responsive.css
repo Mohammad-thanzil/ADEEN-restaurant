@@ -21,6 +21,7 @@
 
     header .icons #menu{
         display:block;
+        justify-content: space-between;
     }
     header .navbar {
         position: absolute;
@@ -58,15 +59,9 @@
        
         justify-content: center;
         height: 78vh;
-        width: 30%;
-        /* margin-top: 100px; */
-    }
-    .home .home-slider .slide1,
-    .home .home-slider .slide2,
-    .home .home-slider .slide3{
-        width: 10%;
 
     }
+   
 
     .home .home-slider .slide .content{
         padding: 0;
