@@ -453,6 +453,9 @@ header .icons #menu{
     width: 150px;
     height: 25vh;
 }
+.network{
+    margin-top: 10px;
+}
 
 ::-webkit-scrollbar{
     width: 12px;

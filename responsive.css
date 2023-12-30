@@ -179,7 +179,8 @@
  @media (max-width: 300px){
     .footer img{
         width: 60px;
-        height: 15vh;
+        height: 12vh;
+    
     }
     header{
         justify-content: space-between;
