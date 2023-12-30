@@ -21,7 +21,7 @@
 
     header .icons #menu{
         display:block;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     header .navbar {
         position: absolute;
