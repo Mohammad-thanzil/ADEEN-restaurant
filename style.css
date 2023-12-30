@@ -426,6 +426,7 @@ header .icons #menu{
     color: #fff;
     font-size: 1.5rem;
     padding-bottom: .8rem;
+    width: 100%;
 }
 .footer .container input{
     width: 100%;

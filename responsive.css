@@ -57,7 +57,7 @@
     .home .home-slider .slide{
        
         justify-content: center;
-        /* height: 8vh; */
+        height: 28vh;
     }
     .home .home-slider .slide .content{
         padding: 0;
@@ -66,9 +66,6 @@
         font-size: 7rem;
     }
 
-    /* .home .home-slider .slide1 {
-        width: 20%;
-    } */
 
     .welcome .box-container{
         flex-wrap: wrap;
