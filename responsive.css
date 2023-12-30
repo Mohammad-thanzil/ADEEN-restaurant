@@ -150,7 +150,7 @@
 
 @media (max-width: 1050px){
 
-forms form {
+ form {
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -180,6 +180,9 @@ forms form {
     .footer img{
         width: 60px;
         height: 15vh;
+    }
+    header{
+        justify-content: space-between;
     }
     
  }
