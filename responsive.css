@@ -66,6 +66,10 @@
         font-size: 7rem;
     }
 
+    /* .home .home-slider .slide1 {
+        width: 20%;
+    } */
+
     .welcome .box-container{
         flex-wrap: wrap;
     }
