@@ -4,7 +4,8 @@
         font-size: 55%;
     }
     header{
-        padding: 1rem 2rem;
+        /* padding: 1rem 2rem; */
+        justify-content: space-between;
     }
   
     .our-menu .menu-container{
@@ -21,7 +22,6 @@
 
     header .icons #menu{
         display:block;
-        justify-content: space-evenly;
     }
     header .navbar {
         position: absolute;
