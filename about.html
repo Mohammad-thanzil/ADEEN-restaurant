@@ -105,6 +105,39 @@
         </button> </a>
 
 
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
+    <script>
+        var swiper = new Swiper(".home-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+        });
+    </script>
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+            if (window.innerWidth <= 768) {
+                menu.classList.toggle('fa-times');
+                navbar.classList.toggle('active');
+            }
+        };
+    </script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
