@@ -785,7 +785,7 @@ header .icons #menu{
   }
   
   .modal-header {
-    padding: 2px 16px;
+    padding: 16px 16px;
     background-color:var(--light-color);
     color: white;
     border-top-left-radius: 14px;
